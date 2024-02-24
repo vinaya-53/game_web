@@ -1,0 +1,922 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #1a0327;
+    font-family: 'Poppins', sans-serif;
+    height: 350vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/\(Chapter\ 13\)\ The\ dark\ room_.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container2{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/battle.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container2 p{
+    font-size: larger;
+    font-weight: 800;
+    color: white;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background:rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .logo img{
+    width: 300px;
+    height:100px;
+  }
+  /* Hide the navbar by default */
+.navbar {
+    display: none;
+}
+
+/* Display the menu button */
+.menu-btn {
+    display: block;
+    cursor: pointer;
+}
+
+/* Media query for smaller devices */
+@media screen and (max-width: 768px) {
+    /* Show the menu when the menu toggle is checked */
+    #menu-toggle:checked + #menu {
+        display: block;
+    }
+
+    /* Hide the menu toggle */
+    #menu-toggle {
+        display: none;
+    }
+
+    /* Hide the menu button */
+    .menu-btn {
+        display: none;
+    }
+
+    /* Display the navbar as a vertical list */
+    .navbar {
+        display: block;
+    }
+}
+
+  #page1 {
+    background-color: #000000;
+  }
+  
+  #page2 {
+    background-image: url('pexels-garrett-morrow-3593986.jpg');
+  }
+  #page3 {
+    background-image: url('pexels-harsch-shivam-2007647.jpg');
+  }
+  #page4{
+    background-image: url('pexels-garrett-morrow-3593986.jpg');
+  }
+  .content {
+    text-align: center;
+    color: white;
+  }
+  .text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #d7a900;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+  .line {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 16px;
+  }
+.lineUp {
+    animation: 3s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 0.8;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  .animate-charcter2
+{
+   text-transform: uppercase;
+   right: 50%;
+   left:50%;
+  background-image: linear-gradient(
+    -225deg,
+    #634b01 0%,
+    #977e01 29%,
+    #ffe600 67%,
+    #f6f89f 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+  font-size: 80px;
+  font-weight: 1000;
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+.logo{
+    width: 100px;
+    height: 10vh;
+    background: #f7c204;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+}
+.logo p{
+    width: 130px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.logo .fas{
+    font-size: 50px;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+}
+ul.navbar li{
+    width: 120px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+ul.navbar li a.active{
+    color: #FEC53A;
+}
+ul.navbar li a:hover:not(.active){
+    color: #FEC53A;
+}
+#btn{
+    width: 250px;
+    height: 10vh;
+    background: #FEC53A;
+    color: #000;
+    outline: none;
+    border: none;
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+#btn .fas{
+    margin-right: 10px;
+}
+
+/* Content desc starts here */
+.content-wrapper{
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+/* .content-desc{
+
+} */
+
+.content-desc h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.content-desc p{
+    width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+.content-desc span{
+    color: #FEC53A;
+}
+#btn2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background: #FEC53A;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    text-align: left;
+}
+@media screen and (max-width: 768px) {
+    #btn2{
+        width: 175px;
+        height: 5vh;
+        padding-left: 5px;
+    }
+}
+#btn3{
+    width: 250px;
+    height: 5vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background: #625d52;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    text-align: left;
+}
+  
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.logo-section .fas{
+    font-size: 6rem;
+    color: #FEC53A;
+}
+.logo-section h1{
+    width: 250px;
+    font-size: 2rem;
+    color: #FEC53A;
+    margin-left: 10px;
+}
+/* Section one starts here */
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(../images/fortnit.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.section-1 h1{
+    width: 500px;
+    color: #FEC53A;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 400;
+}
+.section-1-img{
+    display: flex;
+}
+.section-1-img .img{
+    width: 100px;
+    height: 130px;
+    background: url(images/jumanji.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.section-1-img .img-2{
+    background: url(images/nba.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-3{
+    background: url(images/battlefield.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-4{
+    background: url(images/warxone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-5{
+    background: url(images/craft.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-6{
+    background: url(images/fortnite.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img:hover{
+    transform: translateY(-10px);
+}
+  /* Slideshow container */
+  .avatar {
+    position: relative;
+    text-align: center;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.numbertext {
+    position: absolute;
+    top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    background-color: #000;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    background-color: rgba(250, 244, 244, 0.5);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 40px;
+    border-top-right-radius: 8px; /* Rounded corners for the button */
+    border-bottom-right-radius: 8px; /* Rounded corners for the button */
+}
+
+.next {
+    right: 40px;
+    border-top-left-radius: 8px; /* Rounded corners for the button */
+    border-bottom-left-radius: 8px; /* Rounded corners for the button */
+}
+
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(images/fortnit.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.section-1 h1{
+    font-size: 2rem;
+    color: #fff;
+    margin: 20px 0;
+}
+.section-1-img{
+    display: flex;
+}
+
+.game-categories{
+    width: 70%;
+    margin: 50px auto;
+    position: relative;
+}
+.game-categories h1{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #FEC53A;
+}
+.game-wrapper{
+    display: flex;
+}
+.gw{
+    background-position: center;
+    margin: 30px 35px 0 0;
+    border-radius: 10px;
+}
+.gw:hover{
+    transform: translateY(-10px);
+}
+.left{
+    position: relative;
+    right: -140px;
+}
+
+.gw-1{
+    width: 200px;
+    height: 90px;
+    background: url(images/pngimg.com\ -\ skateboard_PNG102691\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-2{
+    width: 300px;
+    height: 50px;
+    background: url(images/pngimg.com\ -\ skateboard_PNG102697\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-3{
+    width: 200px;
+    height:70px;
+    background: url(images/pngimg.com\ -\ skateboard_PNG102702\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-4{
+    width: 200px;
+    height: 90px;
+    background: url(images/pngimg.com\ -\ skateboard_PNG11730\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-5{
+    width: 200px;
+    height: 90px;
+    background: url(images/—Pngtree—grey\ skateboard\ equipment\ illustration_4671431\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-11{
+    width: 250px;
+    height: 150px;
+    background: url(images/bike-13057.png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-12{
+    width: 250px;
+    height: 150px;
+    background: url(images/bike-13058.png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-13{
+    width: 250px;
+    height: 150px;
+    background: url(images/bike-13067.png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-14{
+    width: 250px;
+    height: 150px;
+    background: url(images/bike-13073.png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-15{
+    width: 250px;
+    height: 150px;
+    background: url(images/bike-13078.png);
+    background-size: cover;
+    background-position: center;
+}
+.section-2{
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(../images/flame.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-2 h1{
+    font-size: 2rem;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/controller.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-3 h1{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.section-3-wrapper{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+.social {
+    position: absolute;
+    z-index: 5;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social li {
+    list-style: none;
+  }
+  
+  .social li a {
+    display: inline-block;
+    margin: 0 15px; /* Adjust the margin for spacing */
+    filter: invert(1);
+    transform: scale(1.2); /* Increase the scale for larger icons */
+    transition: 0.5s;
+  }
+  
+  .social li:first-child a {
+    margin-left: 0; /* Remove left margin for the first social media icon */
+  }
+  
+  .social li:last-child a {
+    margin-right: 0; /* Remove right margin for the last social media icon */
+  }
+  
+  .social li a:hover {
+    transform: scale(1.2) translateY(-15px);
+  }
+  
+  
+.feedback{
+    width: 250px;
+    height: 300px;
+    background: url(images/feedback.jpg);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.feedback-desc{
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+.feedback-desc .far{
+    color: #FEC53A;
+    font-size: 30px;
+}
+.f-img-2{
+    background: url(images/image9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* FOoter section */
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    background-color: #FEC53A;
+    color: #000;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #FEC53A;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}
+/*----------------aboutus-------------------*/
+.about{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+
+}
+.about .container{
+   width: 90%;
+   margin:0 auto;
+   padding:10px 20px;
+}
+.about-image{
+    flex:1;
+    margin-right:40px;
+    overflow:hidden;
+}
+.about-image img{
+    width: 100px;
+    height: 50px;
+    height:auto;
+    display:block;
+    transition:0.5s ease;
+}
+.about-image:hover img{
+    transform: scale(1.2);
+}
+.about-content{
+    flex:1;
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.about-content p{
+    font-size: 18px;
+    margin-bottom: 1.5;
+    color: #ffffff;
+}
+.about-content .read-more{
+    display: inline-block;
+    padding:10px 20px;
+    background-color: #4caf50;
+    color:#fff;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+.about-content .read-more:hover{
+    background-color: #0d8f12;
+}
+@media screen and(max-width:768px){
+    .heading{
+        padding:0px 20px;
+    }
+    .heading h1{
+        font-size: 36px;
+    }
+    .heading p{
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    .about{
+        padding:20px;
+        flex-direction: column;
+    }
+    .about .container{
+        padding: 0px;
+    }
+    .about-image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about-content{
+        padding: 0px;
+        font-size:16px;
+    }
+    .about-content .read-more{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 667px) {
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Merriweather', serif;
+    }
+    :root {
+      --primary: border-box;
+    }
+    body {
+      background-color: #050218;
+    }
+    span {
+      font-size: 8px; /* Adjust font size */
+      font-weight: bolder;
+      color: #ffffff;
+      text-align: center;
+      padding-left: 15px; /* Adjust padding */
+      padding-right: 15px; /* Adjust padding */
+      margin-left: 15px; /* Adjust margin */
+    }
+    h3 {
+      font-size: 10px; /* Adjust font size */
+      color: #fff;
+      font-style: serif;
+      font-weight: 500;
+      padding-top: 0px;
+      padding-bottom: 10px; /* Adjust padding */
+      position: relative;
+    }
+    h1 {
+      font-size: 24px; /* Adjust font size */
+      font-weight: bolder;
+      color: #ffffff;
+      text-align: center;
+    }
+    h2 {
+      font-size: 18px; /* Adjust font size */
+      text-align: center;
+      font-weight: 500;
+      color: #fff;
+    }
+    h6 {
+      font-size: 20px; /* Adjust font size */
+      text-align: left;
+      font-weight: 600;
+      padding-left: 25px; /* Adjust padding */
+      color: #ff0000;
+    }
+    h4 {
+      font-size: 14px; /* Adjust font size */
+      color: #fff;
+      padding: 5px; /* Adjust padding */
+    }
+    p {
+      font-size: small; /* Adjust font size */
+      font-weight: 400;
+    }
+    .text h2
+    {
+      font-size: 2em;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1em;
+      text-transform: uppercase;
+    }
+    .text h3
+    {
+      font-size: 1em;
+      font-weight: 1000;
+      color: #fff;
+      line-height: 1.5em;
+      text-transform: uppercase;
+    }
+    .text p
+    {
+      font-size: 0.6em;
+      color: #fff;
+      margin: 20px 0;
+      font-weight: 800;
+      max-width: 700px;
+    }
+    .text a
+    {
+      display: inline-block;
+      font-size: 0.5em;
+      background: #fff;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 500;
+      margin-top: 10px;
+      color: #111;
+      letter-spacing: 2px;
+      transition: 0.2s;
+    }
+  .footer-logo img{
+    width:100px;
+    height:50px;
+  }
+  ul h3{
+    color: #fff;
+    font-weight: 250;
+  }
+  .logo img{
+    width: 50px;
+    height:25px;
+  }
+  .container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/\(Chapter\ 13\)\ The\ dark\ room_.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+}
