@@ -80,11 +80,11 @@ p{
   }
   
   #page2 {
-    background-image: url('images/5073414.jpg');
-    background-image: url('images/pngegg\ \(1\).png');
+    background-image: url('5073414.jpg');
+    background-image: url('pngegg\ \(1\).png');
   }
   #page3 {
-    background-image: url('images/5329598.jpg');
+    background-image: url('5329598.jpg');
   }
   #page4{
     background-image: url('pexels-garrett-morrow-3593986.jpg');
@@ -595,7 +595,7 @@ header .logo
 }
 
 #page3 {
-  background-image: url('images/5329598.jpg');
+  background-image: url('5329598.jpg');
 }
 
 .content {
@@ -635,7 +635,7 @@ header .logo
 .feedback{
   width: 250px;
   height: 300px;
-  background: url(images/feedback.jpg);
+  background: url(feedback.jpg);
   background-position: center;
   background-size: cover;
 
@@ -653,7 +653,7 @@ header .logo
   font-size: 30px;
 }
 .f-img-2{
-  background: url(images/image9.jpg);
+  background: url(image9.jpg);
   background-position: center;
   background-size: cover;
 }
