@@ -13,7 +13,7 @@ body{
 .container{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/\(Chapter\ 13\)\ The\ dark\ room_.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(\(Chapter\ 13\)\ The\ dark\ room_.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ body{
 .container2{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/battle.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(battle.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -340,34 +340,34 @@ ul.navbar li a:hover:not(.active){
 .section-1-img .img{
     width: 100px;
     height: 130px;
-    background: url(images/jumanji.jpg);
+    background: url(jumanji.jpg);
     background-size: cover;
     background-position: center;
     margin-right: 10px;
     border-radius: 10px;
 }
 .section-1-img .img-2{
-    background: url(images/nba.jpg);
+    background: url(nba.jpg);
     background-size: cover;
     background-position: center;
 }
 .section-1-img  .img-3{
-    background: url(images/battlefield.jpg);
+    background: url(battlefield.jpg);
     background-size: cover;
     background-position: center;
 }
 .section-1-img  .img-4{
-    background: url(images/warxone.jpg);
+    background: url(warxone.jpg);
     background-size: cover;
     background-position: center;
 }
 .section-1-img  .img-5{
-    background: url(images/craft.jpeg);
+    background: url(craft.jpeg);
     background-size: cover;
     background-position: center;
 }
 .section-1-img  .img-6{
-    background: url(images/fortnite.jpg);
+    background: url(fortnite.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -497,70 +497,70 @@ ul.navbar li a:hover:not(.active){
 .gw-1{
     width: 200px;
     height: 90px;
-    background: url(images/pngimg.com\ -\ skateboard_PNG102691\ \(1\).png);
+    background: url(pngimg.com\ -\ skateboard_PNG102691\ \(1\).png);
     background-size: cover;
     background-position: center;
 }
 .gw-2{
     width: 300px;
     height: 50px;
-    background: url(images/pngimg.com\ -\ skateboard_PNG102697\ \(1\).png);
+    background: url(pngimg.com\ -\ skateboard_PNG102697\ \(1\).png);
     background-size: cover;
     background-position: center;
 }
 .gw-3{
     width: 200px;
     height:70px;
-    background: url(images/pngimg.com\ -\ skateboard_PNG102702\ \(1\).png);
+    background: url(pngimg.com\ -\ skateboard_PNG102702\ \(1\).png);
     background-size: cover;
     background-position: center;
 }
 .gw-4{
     width: 200px;
     height: 90px;
-    background: url(images/pngimg.com\ -\ skateboard_PNG11730\ \(1\).png);
+    background: url(pngimg.com\ -\ skateboard_PNG11730\ \(1\).png);
     background-size: cover;
     background-position: center;
 }
 .gw-5{
     width: 200px;
     height: 90px;
-    background: url(images/—Pngtree—grey\ skateboard\ equipment\ illustration_4671431\ \(1\).png);
+    background: url(—Pngtree—grey\ skateboard\ equipment\ illustration_4671431\ \(1\).png);
     background-size: cover;
     background-position: center;
 }
 .gw-11{
     width: 250px;
     height: 150px;
-    background: url(images/bike-13057.png);
+    background: url(bike-13057.png);
     background-size: cover;
     background-position: center;
 }
 .gw-12{
     width: 250px;
     height: 150px;
-    background: url(images/bike-13058.png);
+    background: url(bike-13058.png);
     background-size: cover;
     background-position: center;
 }
 .gw-13{
     width: 250px;
     height: 150px;
-    background: url(images/bike-13067.png);
+    background: url(bike-13067.png);
     background-size: cover;
     background-position: center;
 }
 .gw-14{
     width: 250px;
     height: 150px;
-    background: url(images/bike-13073.png);
+    background: url(bike-13073.png);
     background-size: cover;
     background-position: center;
 }
 .gw-15{
     width: 250px;
     height: 150px;
-    background: url(images/bike-13078.png);
+    background: url(bike-13078.png);
     background-size: cover;
     background-position: center;
 }
@@ -640,7 +640,7 @@ ul.navbar li a:hover:not(.active){
 .feedback{
     width: 250px;
     height: 300px;
-    background: url(images/feedback.jpg);
+    background: url(feedback.jpg);
     background-position: center;
     background-size: cover;
  
@@ -658,7 +658,7 @@ ul.navbar li a:hover:not(.active){
     font-size: 30px;
 }
 .f-img-2{
-    background: url(images/image9.jpg);
+    background: url(image9.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -914,7 +914,7 @@ ul li a:hover{
   .container{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/\(Chapter\ 13\)\ The\ dark\ room_.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(\(Chapter\ 13\)\ The\ dark\ room_.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
